@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="git,">
 
 
 
@@ -79,13 +79,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Mestrap">
-<meta property="og:url" content="http://www.mestrap.com/index.html">
+<meta name="description" content="安装 git从github的git项目中下载最新版本的git源码 git在github的发布页面：https://github.com/git/git/releases 在root用户下，执行以下命令，下载git安装包   1wget https://github.com/git/git/archive/v2.23.0.tar.gz  12345678910111213[root@centos ~">
+<meta name="keywords" content="git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linux搭建git本地仓库">
+<meta property="og:url" content="http://www.mestrap.com/2019/09/11/linux搭建git本地仓库/index.html">
 <meta property="og:site_name" content="Mestrap">
+<meta property="og:description" content="安装 git从github的git项目中下载最新版本的git源码 git在github的发布页面：https://github.com/git/git/releases 在root用户下，执行以下命令，下载git安装包   1wget https://github.com/git/git/archive/v2.23.0.tar.gz  12345678910111213[root@centos ~">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-09-11T10:39:31.829Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mestrap">
+<meta name="twitter:title" content="linux搭建git本地仓库">
+<meta name="twitter:description" content="安装 git从github的git项目中下载最新版本的git源码 git在github的发布页面：https://github.com/git/git/releases 在root用户下，执行以下命令，下载git安装包   1wget https://github.com/git/git/archive/v2.23.0.tar.gz  12345678910111213[root@centos ~">
 
 
 
@@ -115,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://www.mestrap.com/">
+  <link rel="canonical" href="http://www.mestrap.com/2019/09/11/linux搭建git本地仓库/">
 
 
 
 
 
-  <title>Mestrap</title>
+  <title>linux搭建git本地仓库 | Mestrap</title>
   
 
 
@@ -140,8 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,9 +218,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -246,9 +250,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/09/11/linux搭建git本地仓库/" itemprop="url">linux搭建git本地仓库</a></h1>
+          <h1 class="post-title" itemprop="name headline">linux搭建git本地仓库</h1>
         
 
         <div class="post-meta">
@@ -298,9 +300,7 @@
       
 
       
-        
-          
-            <h2 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h2><p>从github的git项目中下载最新版本的git源码</p>
+        <h2 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h2><p>从github的git项目中下载最新版本的git源码</p>
 <p>git在github的发布页面：<a href="https://github.com/git/git/releases" title="https://github.com/git/git/releases" target="_blank" rel="noopener">https://github.com/git/git/releases</a></p>
 <p>在root用户下，执行以下命令，下载git安装包  </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://github.com/git/git/archive/v2.23.0.tar.gz</span><br></pre></td></tr></table></figure>
@@ -350,8 +350,6 @@
 
 <p>参考：<br><a href="https://www.cnblogs.com/jimmy-muyuan/p/8762934.html" target="_blank" rel="noopener">Linux环境下搭建Git仓库</a><br><a href="https://www.cnblogs.com/linux130/p/5662286.html" target="_blank" rel="noopener">在 Linux 中安装 Lighttpd Web 服务器</a><br><a href="https://www.cnblogs.com/imyalost/p/8715688.html" target="_blank" rel="noopener">环境部署（三）：Linux下安装Git</a><br><a href="https://www.liaoxuefeng.com/wiki/896043488029600/899998870925664" target="_blank" rel="noopener">搭建Git服务器</a><br><a href="https://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-GitWeb" target="_blank" rel="noopener">服务器上的 Git - GitWeb</a> </p>
 
-          
-        
       
     </div>
     
@@ -366,266 +364,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mestrap.com/2019/09/06/DIY高级玩具：3D打印机/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="lianhl">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mestrap">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/09/06/DIY高级玩具：3D打印机/" itemprop="url">DIY高级玩具：3D打印机</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-09-06T10:55:31+08:00">
-                2019-09-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/git/" rel="tag"># git</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>###<br>打印尺寸 200mm * 200mm * 200mm<br>采用 2040 铝合金型材做机身框架，使用L型内嵌角件固定。</p>
-<p>主板 MEGA2560 + RAMPS 1.4 + A4988驱动。</p>
-<p>机身尺寸：<br>X轴 300mm * 3<br>Y轴 400mm * 2<br>Z轴 350mm * 2  </p>
-<p>热床尺寸：200mm * 200mm * 3mm</p>
-<p>D8光轴直径 8mm<br>T8丝杆，直径 8mm, 螺距 2mm</p>
-<p>直线轴承：L8UU ，8 * 15 * 24, 内径 * 外径 * 长度</p>
-<p>42步进电机，1.8度<br>5*8 弹性联轴器 * 2</p>
-<p>MK8 挤出机 * 1</p>
-<p>GT2同步轮，同步带，惰轮</p>
-<h3 id="3D打印塑料件"><a href="#3D打印塑料件" class="headerlink" title="3D打印塑料件"></a>3D打印塑料件</h3>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
       
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.mestrap.com/2019/08/28/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="lianhl">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mestrap">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/08/28/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-08-28T15:44:38+08:00">
-                2019-08-28
-              </time>
+              <a href="/2019/09/06/DIY高级玩具：3D打印机/" rel="next" title="DIY高级玩具：3D打印机">
+                <i class="fa fa-chevron-left"></i> DIY高级玩具：3D打印机
+              </a>
             
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/08/28/hello-world/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
           </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
 
-    
+          <span class="post-nav-divider"></span>
 
-    
-
-    
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -635,10 +403,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -646,6 +415,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -666,8 +439,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -718,6 +500,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-git"><span class="nav-number">1.</span> <span class="nav-text">安装 git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置环境变量"><span class="nav-number">2.</span> <span class="nav-text">配置环境变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#搭建git服务器"><span class="nav-number">3.</span> <span class="nav-text">搭建git服务器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#建立-git-用户"><span class="nav-number">3.1.</span> <span class="nav-text">建立 git 用户</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置用户公钥"><span class="nav-number">3.2.</span> <span class="nav-text">配置用户公钥</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建git创建"><span class="nav-number">3.3.</span> <span class="nav-text">创建git创建</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建-readme-md-说明"><span class="nav-number">3.4.</span> <span class="nav-text">创建 readme.md 说明</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用"><span class="nav-number">4.</span> <span class="nav-text">使用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#克隆仓库到本地"><span class="nav-number">4.1.</span> <span class="nav-text">克隆仓库到本地</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git-web"><span class="nav-number">5.</span> <span class="nav-text">git web</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -858,6 +656,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
